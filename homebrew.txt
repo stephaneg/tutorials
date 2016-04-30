@@ -1,0 +1,7 @@
+HOMEBREW TUTORIAL
+
+brew update
+brew outdated
+brew upgrade
+brew install <package>
+
