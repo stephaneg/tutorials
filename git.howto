@@ -1,0 +1,29 @@
+REPOSITORY
+remote directory : git init --bare <dir>
+clone : git clone <repo> <localdir>
+
+WORKKING WITH FILES
+adding files or dir : git add <file> or git <dir>
+commit : git commit <file> or git commit -a #commit all changes
+git commit --amend
+
+INSPECTING A REPO
+status : git status
+log comments : git log --oneline
+git log --graph --decorate --oneline
+
+
+VIEWING OLD COMMITS
+checkout an old version of all the files : git checkout <commit>
+checkout an old version of a file : git checkout <commit> <file>
+checkout the latest version of all the files : git checkout HEAD
+
+UNDOING CHANGES
+git revert <commit>
+removing untracked files from the working dir : git clean
+
+PUSH TO CENTRAL REPO
+git push <remote> <branch>
+ex : git push origin master
+
+
