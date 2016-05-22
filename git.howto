@@ -26,4 +26,6 @@ PUSH TO CENTRAL REPO
 git push <remote> <branch>
 ex : git push origin master
 
-
+PULL FROM CENTRAL REPO
+git pull <remote> <branch>
+git pull origin master
