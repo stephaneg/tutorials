@@ -1,8 +1,22 @@
 # ATOM QUICK GUIDE
 
+## THEMES
+UI : OneDark
+Syntax : Monokai SETI
+Font : Inconsolata
 
 ## COMMAND PALETTE
 cmd-shift-p
+
+## LANGUAGES
+
+# GO
+go-plus
+
+# PYTHON
+
+#
+
 
 
 
