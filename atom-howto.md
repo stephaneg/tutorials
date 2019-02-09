@@ -21,6 +21,7 @@ proto-repl
 
 # ALL
 terminal-plus
+script
 
 
 
