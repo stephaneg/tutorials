@@ -15,7 +15,13 @@ go-plus
 
 # PYTHON
 
-#
+# CLOJURE
+parinfer
+proto-repl
+
+# ALL
+terminal-plus
+
 
 
 
