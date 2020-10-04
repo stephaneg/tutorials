@@ -1,7 +1,11 @@
 # accounts and environment
 postre user : postgres
-distrib installation : /usr/lib/psotgresql/12/bin
+distrib installation : /usr/lib/psotgresql/12/bi
+data location :  /var/lib/postgres/12/main
+service config file : 
 
+# configuration files
+/etc/postgresql/12/main
 
 # starting the database server
 postgres -D /usr/local/pgsql/data
