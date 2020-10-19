@@ -12,6 +12,9 @@ cmd-shift-p
 
 # GO
 go-plus
+atom-ide-ui
+go-debug
+go-signature-statusbar
 
 # PYTHON
 
