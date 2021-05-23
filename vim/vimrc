@@ -1,0 +1,18 @@
+set nocompatible
+
+"
+" initialisation de pathogen
+"
+call pathogen#infect()
+call pathogen#helptags()
+
+" line numbers and colorscheme
+set number
+colorscheme monokai
+
+
+filetype plugin indent on
+syntax on
+
+" load all config files
+runtime! config/**/*.vim
