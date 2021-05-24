@@ -15,16 +15,14 @@
 |-- monokai.vim
 
 |bundle
-|-- ctrlp.vim 
-|-- paredit.vim
-|-- vim-airline
-|-- vim-airline-themes
-|-- vim-clojure-static
-|-- vim-fireplace
-|-- vim-salve
-|-- nerdtree
+|-- ctrlp.vim  : file navigation
+|-- vim-airline : status line
+|-- vim-airline-themes : status line themes
+|-- vim-clojure-static :  syntax highlighting for Clojure
+|-- vim-fireplace : nrepl integration
+|-- vim-salve : leiningen support
+|-- nerdtree : file tree
 |-- vim-classpath
-|-- vim-dispatch
-|-- vim-projectionlist
+|-- vim-dispatch : asynchronius compil
 |-- syntastic
 
