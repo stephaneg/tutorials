@@ -26,3 +26,5 @@
 |-- vim-classpath
 |-- vim-dispatch
 |-- vim-projectionlist
+|-- syntastic
+

@@ -6,13 +6,12 @@ set nocompatible
 call pathogen#infect()
 call pathogen#helptags()
 
-" line numbers and colorscheme
-set number
-colorscheme molokai
-let g:airline_theme='papercolor'
 
-filetype plugin indent on
-syntax on
 
 " load all config files
 runtime! config/**/*.vim
+
+"
+" mac os specific settings
+" :cd /Users/stephanegesuati/workspace/repos
+" set visualbell t_vb=
