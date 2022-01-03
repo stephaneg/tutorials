@@ -24,5 +24,5 @@
 |-- nerdtree : file tree
 |-- vim-classpath
 |-- vim-dispatch : asynchronius compil
-|-- syntastic
+|-- vim-go
 
