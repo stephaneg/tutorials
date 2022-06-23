@@ -4,4 +4,4 @@
 set number
 set relativenumber
 colorscheme molokai 
-let g:airline_theme='jellybean'
+let g:airline_theme='jellybeans'
