@@ -2,5 +2,6 @@
 " color scheme and display config
 "
 set number
-colorscheme molokai
-let g:airline_theme='papercolor'
+set relativenumber
+colorscheme molokai 
+let g:airline_theme='jellybean'
