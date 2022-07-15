@@ -14,11 +14,13 @@ runtime! config/**/*.vim
 "
 " mac os specific settings
 " :cd /Users/stephanegesuati/workspace/repos
-" set visualbell t_vb=
+
+
+set visualbell t_vb=
 
 "
 " windows specific settings
 "
-" set lines=60
-" set columns=160:
+" set lines=30
+" set columns=120
 " set guifont=Consolas:h11
