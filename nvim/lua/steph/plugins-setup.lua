@@ -99,6 +99,13 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	-- go lang
+	use("ray-x/go.nvim")
+	use("ray-x/guihua.lua")
+	--
+	--
+	--
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
