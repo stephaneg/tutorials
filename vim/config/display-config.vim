@@ -4,9 +4,9 @@
 set number
 set relativenumber
 
-set termguicolors=true
+"set termguicolors=true
 set signcolumn="yes"
-set background="dark"
+set background=dark
 
 colorscheme nightflight 
 let g:airline_theme='papercolor'
