@@ -7,20 +7,54 @@ call pathogen#infect()
 call pathogen#helptags()
 
 
-
 " load all config files
-runtime! config/**/*.vim
+" runtime! config/**/*.vim
 
-"
-" mac os specific settings
-" :cd /Users/stephanegesuati/workspace/repos
+set noerrorbells
+set novisualbell
+set visualbell t_vb= 
+set tm=500
+
+" key binding
+let mapleader = " "
+map <leader>e <Esc>:NERDTreeToggle<CR>
+map <leader>ff <Esc>:CtrlP<CR>
 
 
-set visualbell t_vb=
+" colors
+set background=dark
+colorscheme molokai 
+syntax enable
+let g:airline_theme='papercolor'
 
-"
-" windows specific settings
-"
-" set lines=30
-" set columns=120
-" set guifont=Consolas:h11
+
+" spaces and tabs
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set autoindent
+set smartindent
+set wrap
+
+
+" UI config
+set number
+set showcmd
+filetype indent on
+filetype plugin on
+set showmatch
+
+
+" parenthesis matching
+let g:rainbow_active = 1
+let g:rainbow_operators = 1
+
+
+set backspace="indent,eol,start"
+
+" file, backup and undo
+set nobackup
+set nowb
+set noswapfile
+
